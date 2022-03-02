@@ -1,2 +1,3 @@
-# pet-care-web-site
-Website developed to train HTML - CSS - JS - Adobe XD skills
+# PetCare
+
+This is a fake website developed to use the HTML - CSS - JS - Adobe XD skills.
