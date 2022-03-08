@@ -412,9 +412,9 @@ nav a:hover {
   -webkit-transition: 0.5s ease-out;
      -moz-transition: 0.5s ease-out;
           transition: 0.5s ease-out;
-    -webkit-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
-       -moz-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
-            box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+  -webkit-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+      -moz-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+          box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
   background-color: #FE6845;
   color: #fff;
 }
@@ -438,3 +438,124 @@ nav a:hover {
   justify-content: space-evenly;
   margin-top: 80px;
 }
+
+
+
+/* Footer */
+footer {
+  background: url('../images/bg-footer.png') center 0 no-repeat;
+  min-height: 350px;
+  margin-top: 150px;
+}
+
+footer .footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 350px;
+}
+
+footer nav {
+  padding-top: 100px;
+}
+
+footer nav a {
+  display: inline-block;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+           border-radius: 40px;
+  text-decoration: none;
+  margin: 0 30px;
+  -webkit-transition: 0.5s ease-out;
+     -moz-transition: 0.5s ease-out;
+          transition: 0.5s ease-out;
+}
+
+footer .newsletter {}
+
+footer .newsletter h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFE530;
+}
+
+footer .newsletter p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin: 20px 0;
+}
+
+footer .newsletter form {
+  display: flex;
+  background: #fff;
+  margin: 20px 0 0 0;
+  -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+           border-radius: 40px;
+  -webkit-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+       -moz-box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+            box-shadow: 1px 7px 7px -4px rgb(5, 0, 0, 0.36);
+}
+
+footer .newsletter form input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #808080;
+  padding: 20px 0px 20px 30px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+footer .newsletter form button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+footer .newsletter form button img {
+  margin-top: 6px;
+}
+
+footer .base {
+  background: #fff;
+}
+
+footer .base .base-box {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+footer .base .base-box h4 {
+  color: #FF6752;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+footer .base .base-box .social-medias {
+  margin-top: 10px;
+}
+
+footer .base .base-box .social-medias a {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+footer .base .base-box .social-medias a:last-child {
+  margin: 0 0 0 5px;
+}
+
