@@ -198,10 +198,27 @@ header {
        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .3);
   display: flex;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  padding: 30px 0;
+  margin: 0 20px;
   align-items: center;
   justify-content: center;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
 }
 
 .card p {
@@ -637,29 +654,31 @@ form button img {
 
 @media (max-width: 900px) {
   nav a{
-    font-size: 16px;
+    font-size: 18px;
   } 
-  .hero__infos h1{
-    font-size: 37px;
+  .hero__infos h1 {
+    font-size: 38px;
+    text-align: center;
   }
   .hero__infos p {
-    font-size: 16px;
+    text-align: center;
+    width: 100%;
   }
-  .hero__support a{
-    font-size: 13px;
+  .hero__support {
+    flex-direction: column;
+  }
+  .hero__support a {
+    margin-bottom: 25px;
   }
   .hero__support p {
-    font-size: 12px;
+    text-align: center;
   }
   .services {
     padding-top: 50px;
+    padding-top: 50px;
     background-position-x: center;
-    background-position-y: -260px;
+    background-position-y: -215px;
     min-height: 1000px
-  }
-  .card{
-    width: 150px;
-    height: 150px;
   }
   .card p{
     font-size: 14px;
@@ -670,6 +689,12 @@ form button img {
   .testimonials__cards h3 {
     margin: 10px 0 20px 0;
   }
+}
+
+@media (max-width: 800px) {
+  nav a{
+    font-size: 16px;
+  } 
 }
 
 @media (max-width: 793px) {}
