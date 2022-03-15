@@ -1,6 +1,6 @@
 # PetCare
 
-#### url: [visit here](https://fennawake.github.io/capture-page-html-css/)
+#### url: [visit here](https://fennawake.github.io/pet-care-web-site/)
 
 #### Project description
 
